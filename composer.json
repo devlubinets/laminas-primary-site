@@ -10,14 +10,22 @@
         "framework"
     ],
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:devlubinets/book-my-party_orm-module.git"
+        }
+    ],
     "require": {
         "php": "^7.3 || ~8.0.0",
+        "ext-json": "*",
         "laminas/laminas-component-installer": "^2.4",
         "laminas/laminas-development-mode": "^3.2",
         "laminas/laminas-skeleton-installer": "^0.6",
         "laminas/laminas-mvc": "^3.1.1",
         "ppito/laminas-whoops": "^2.2",
-        "propel/propel": "2.0.x-dev"
+        "propel/propel": "2.0.x-dev",
+        "book-my-party/orm-module-module": "dev-develop"
     },
     "autoload": {
         "psr-4": {
